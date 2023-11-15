@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  list-style: none;
+  text-decoration: none !important;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.background-log {
+  width: 100%;
+  height: 100vh;
+  background-color: #1e2b6f;
+}
+
+.content-log {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  height: 850px;
+  background-image: url(img/bg-login.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.logo p {
+  font-weight: 600;
+  margin-left: 20px;
+}
+.logo img {
+  width: 100px;
+}
+
+.form-login {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: calc(100% - 58%);
+  height: 100%;
+  background-color: #fff;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.formbox-login {
+  height: 500px;
+  width: 450px;
+  padding: 10px;
+}
+
+.formbox-login h1 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 800;
+  color: #1e2b6f;
+  margin-bottom: 40px;
+}
+
+.formbox-login .input-box {
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.input-box input {
+  width: 100%;
+  height: 50px;
+  background: #f6f6f6;
+  border: 1px solid #1e2b6f;
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+  color: #737373;
+  font-weight: 500;
+  padding: 5px 10px;
+}
+
+.input-box label {
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+.input-container {
+  position: relative;
+}
+.input-container i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 20px;
+  color: #1e2b6f;
+  font-size: 20px;
+}
+.input-container input {
+  padding-left: 50px;
+  margin-bottom: 0;
+}
+
+.formbox-login .remember-forgot {
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.formbox-login .btn {
+  height: 48px;
+  margin-bottom: 10px;
+  background-color: #1e2b6f;
+}
+
+.dont-have {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.dont-have span {
+  font-weight: 700;
+}
+
+.content-img {
+  padding-top: 260px;
+  width: 58%;
+  height: 100%;
+}
+.content-img img {
+  object-position: bottom;
+  width: 100%;
+}
+
+.desc-sign {
+  font-size: 14px;
+}
